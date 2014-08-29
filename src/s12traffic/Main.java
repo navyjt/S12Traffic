@@ -20,9 +20,9 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
-import javax.swing.table.AbstractTableModel;
 
 import util.ConfigFile;
+import util.ResultSetTableModel;
 import util.UI;
 import util.WriteLog;
 
@@ -749,7 +749,7 @@ public class Main
 
 	}	
 	//以下代码用来在软件中添加导出数据至excel中的功能@20150416
-	  public static boolean DB2Excel(ResultSet rs)
+	public static boolean DB2Excel(ResultSet rs)
 	  {
 	        boolean flag = false;
 	        WritableWorkbook workbook = null;
@@ -866,7 +866,6 @@ public class Main
 	        }
 	        return flag;
 	    }
-	 
 
 	public static void main(String[] args) 
 	{
@@ -996,7 +995,7 @@ public class Main
 
 }
 
-class ResultSetTableModel extends AbstractTableModel
+/*class ResultSetTableModel extends AbstractTableModel
 {  
 	private static final long serialVersionUID = 1L;
 	private ResultSet rs;
@@ -1106,4 +1105,4 @@ class ResultSetTableModel extends AbstractTableModel
 		}
 	}
 	
-}
+}*/

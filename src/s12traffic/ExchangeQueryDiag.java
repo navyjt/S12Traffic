@@ -12,6 +12,7 @@ import javax.swing.*;
 import javax.swing.table.TableColumn;
 
 import util.ConfigFile;
+import util.ResultSetTableModel;
 /**
  * 提供对交换局局向的查询工作，形成一一对应关系
  * @author 涛
