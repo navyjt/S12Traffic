@@ -4,7 +4,7 @@ import java.awt.Font;
 
 import javax.swing.UIManager;
 
-public class UIIniatialize {
+public class UI {
 
 	public static void start() {
 		// TODO 自动生成的方法存根

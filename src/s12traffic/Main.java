@@ -23,7 +23,7 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import util.ConfigFile;
-import util.UIIniatialize;
+import util.UI;
 import util.WriteLog;
 
 import java.awt.event.*;
@@ -73,7 +73,7 @@ public class Main
 
 	public void init() throws ClassNotFoundException, SQLException, IOException
 	{
-		UIIniatialize.start();
+		UI.start();
 		
 		 
 		//创建一个状态栏
